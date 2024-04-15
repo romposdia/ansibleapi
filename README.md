@@ -1,4 +1,3 @@
-# ansibleapi
 # Ansible API
 
 ## Description

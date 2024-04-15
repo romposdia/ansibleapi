@@ -20,14 +20,16 @@ This REST API, developed using Django and Django REST Framework, enables users t
 git clone https://github.com/romposdia/ansibleapi.git
 cd ansibleapi
 pip install -r requirements.txt
+```
 
 ## Usage
 To start the server:
 
 ```bash
 python manage.py runserver
-
+```
 
 Example of launching a playbook:
 ```bash
 curl -X POST -d '{"playbook": "path/to/playbook.yml"}' http://localhost:8000/api/launch
+```
